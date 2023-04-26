@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Chat App</title>
+        
+    </head>
+    <body>
+        <div class="join-container">
+            <header class="join-header">
+                <h1>Chat WebSocket App</h1>
+                </header>
+
+            <main class="join-main">
+                <form action="chat.html">
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username"
+                        placeholder="Enter username"
+                        required 
+                        />
+                    </div>
+                    <div class="form-control">
+						<label for="room">TCP port</label>
+						<select name="room" id="room">
+							<option value="JavaScript">port 8080</option>
+							<option value="Python">port 9090</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Login</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
